@@ -1,0 +1,141 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		6B09D8E4CE5444B3B11F66BD = {
+			isa = PBXProject;
+			buildConfigurationList = 090DDF7FBF9A4329845A9E3E;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, );
+			mainGroup = C4FCA627C6AF419BA40F4C3A;
+			productRefGroup = 0D50E462703E470F9C23A032;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9C9B883B474E3CB8E0726B,
+			);
+		};
+		B3981D28A78C4909B41A42E1 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlApp.swift; sourceTree = "<group>"; };
+		7A366C2496B4405190FFADEB = {isa = PBXBuildFile; fileRef = B3981D28A78C4909B41A42E1; };
+		A4CD1CBFD0D64DD48D0CC822 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		528633EBFEC94B4C98AEA14A = {isa = PBXBuildFile; fileRef = A4CD1CBFD0D64DD48D0CC822; };
+		357BE9E1C1044E849BA5FB12 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		1CAA7643A7224077908680F2 = {isa = PBXBuildFile; fileRef = 357BE9E1C1044E849BA5FB12; };
+		1959D037FA9C4FAABE40A56E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIAOBridge.swift; sourceTree = "<group>"; };
+		FBBC74C5000343E9946F0D90 = {isa = PBXBuildFile; fileRef = 1959D037FA9C4FAABE40A56E; };
+		C4FCA627C6AF419BA40F4C3A = {
+			isa = PBXGroup;
+			children = (
+				0D50E462703E470F9C23A032,
+				B3981D28A78C4909B41A42E1,
+				A4CD1CBFD0D64DD48D0CC822,
+				357BE9E1C1044E849BA5FB12,
+				1959D037FA9C4FAABE40A56E,
+			);
+			sourceTree = "<group>";
+		};
+		0D50E462703E470F9C23A032 = {
+			isa = PBXGroup;
+			children = (
+				58C4DDEA12EF40D385BCCB3F,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C4DDEA12EF40D385BCCB3F = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9C9B883B474E3CB8E0726B = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A288CE553E464E02B605231A;
+			buildPhases = (
+				646C42BC5D02476580A98322,
+				78506BE756004EA8B7D8D7EB,
+				AC4E0F6D7385415B892018E3,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureControl;
+			productName = SecureControl;
+			productReference = 58C4DDEA12EF40D385BCCB3F;
+			productType = "com.apple.product-type.application";
+		};
+		646C42BC5D02476580A98322 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A366C2496B4405190FFADEB,
+				528633EBFEC94B4C98AEA14A,
+				1CAA7643A7224077908680F2,
+				FBBC74C5000343E9946F0D90,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78506BE756004EA8B7D8D7EB = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		AC4E0F6D7385415B892018E3 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		379B6324960A49B6B1EF5DC5 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SecureControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1921749B7DC940E9A536DE70 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SecureControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		090DDF7FBF9A4329845A9E3E = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379B6324960A49B6B1EF5DC5,
+				1921749B7DC940E9A536DE70,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1049ACD93948CA9F7E9B13 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; PRODUCT_BUNDLE_IDENTIFIER = com.example.SecureControl; }; name = Debug; };
+		8A6163D6598B41D3937A6039 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; PRODUCT_BUNDLE_IDENTIFIER = com.example.SecureControl; }; name = Release; };
+		A288CE553E464E02B605231A = {isa = XCConfigurationList; buildConfigurations = (0F1049ACD93948CA9F7E9B13, 8A6163D6598B41D3937A6039,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = 6B09D8E4CE5444B3B11F66BD;
+}
