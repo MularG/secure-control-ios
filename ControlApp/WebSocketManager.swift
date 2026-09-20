@@ -1,5 +1,6 @@
 import SwiftUI
 import Foundation
+import UIKit
 
 class WebSocketManager: ObservableObject {
     @Published var isConnected = false
